@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "He luu Ngọc Anh!",
-  text2: "Anh có điều này muốn hỏi em nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Ngọc Anh có muốn đi ăn cùng anh không nào ._.",
+  text1: "He lu iêm 🐓☀!",
+  text2: "Anh có điều này muốn hỏi em nhớ phải trả lời luôn nhaaa.",
+  text3: "Em có muốn ra ngoài đi ăn cùng anh không nào ._.",
   text4: "Nếu em ko trả lời mà thoát ra tức là đồng ý rùi đó nha :v",
-  text5: "Không a mơ à ???",
+  text5: "Khum đâu ạ???",
   text6: "Dạ vâng ạ",
   text7: "Thế giờ e muốn đi ăn gì nhỉ :vvvv",
   text8: "Thông báo cho a <3",
-  text9: "Em muốn đi ăn thịt nướnggggggggggggggggggggggggggggggggggg",
+  text9: "Em muốn đi ăn thịt nướngggggggggggggggggggggggggggggggggggggggggggggggg",
   text10: "Oke a biết rồi!",
   text11:
-      "Tối hôm sau a qua đón e đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho a đi nàooo",
+      "Thế để a xem hôm nào được nhỉ :v Còn giờ thì chờ gì nữa mà ko inbox cho a đi nàooo",
   text12: "Okii lunn <3",
 };
 
@@ -115,7 +115,7 @@ $(document).ready(function () {
       html: true,
       width: 900,
       padding: "3em",
-      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Em muốn ăn?'>",
+      html: "<input type='text' class='form-control' id='txtReason'  placeholder='Em muốn ăn gì cơ?'>",
       background: '#fff url("img/iput-bg.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
@@ -139,7 +139,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "http://fb.com/tungntdev";
+            window.location = "https://www.facebook.com/messages/t/100003810997585";
           },
         });
       }
