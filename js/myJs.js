@@ -1,7 +1,7 @@
 const textConfig = {
-  text1: "He lu iêm 🐓☀!",
+  text1: "He lu iêm 🐟 (Bống) !",
   text2: "Anh có điều này muốn hỏi em nhớ phải trả lời luôn nhaaa.",
-  text3: "Em có muốn ra ngoài đi ăn cùng anh không nào ._.",
+  text3: "Cuồi tuần này đi ăn cùng anh không nào ._.",
   text4: "Nếu em ko trả lời mà thoát ra tức là đồng ý rùi đó nha :v",
   text5: "Khum đâu ạ???",
   text6: "Dạ vâng ạ",
@@ -10,7 +10,7 @@ const textConfig = {
   text9: "Em muốn đi ăn thịt nướngggggggggggggggggggggggggggggggggggggggggggggggg",
   text10: "Oke a biết rồi!",
   text11:
-      "Thế để a xem hôm nào được nhỉ :v Còn giờ thì chờ gì nữa mà ko inbox cho a đi nàooo",
+      "Em nhớ là cuối tuần có hẹn với anh nha :v Còn giờ thì chờ gì nữa mà ko inbox cho a đi nàooo",
   text12: "Okii lunn <3",
 };
 
@@ -139,7 +139,7 @@ $(document).ready(function () {
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
           onClose: () => {
-            window.location = "https://www.facebook.com/messages/t/100003810997585";
+            window.location = "https://www.messenger.com/e2ee/t/100003810997585";
           },
         });
       }
